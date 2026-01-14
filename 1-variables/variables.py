@@ -57,7 +57,7 @@ print(d, e, r)
 # f-string
 name = "Erkan"
 age = 22
-country = Bulgaria
+country = "Bulgaria"
 
 print(f"Your name is {name}, you are {age} years old, you are from {country}")
 
@@ -69,7 +69,41 @@ double_age = age * 2
 print(next_year_age)
 print(double_age)
 
+# Type Casting
+age = input("Enter your age: ")
+print(age)
+print(type(age))
 
+# String integer(int)
+age = input("Enter your age: ")
+age = int(age)
+
+print(age)
+print(type(age))
+
+# String integer(int) + 1
+age = input("Enter your age: ")
+age = int(age)
+
+print(age + 1)
+print(type(age))
+
+# String Float
+height = input("Enter your height: ")
+height = float(height)
+
+print(height)
+print(type(height))
+
+# Integer String
+age = 25
+age_str = str(age)
+
+print("Age: " + age)
+
+# f string
+age = 31
+print(f"Age: {age}")
 
 
 
