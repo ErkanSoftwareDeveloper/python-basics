@@ -15,5 +15,35 @@ Float (float) = Stores numbers with decimals.
 
 Boolean (bool) = Stores True or False, used for conditions."""
 
-# printing variables
+# Printing variables 
 print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("Is Student:", is_student)
+
+# Input() always returns a string (text)!
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+
+print("Hello", name)
+print("Your age", age)
+
+# Variables
+name = "Alice"
+age = 30 
+height = 1.68
+is_student = True
+next_year_age = age + 1
+
+print("My name:", name)
+print("Age:", next_year_age)
+print("Height:", height)
+Print("Student status:", is_student)
+
+
+
+
+
+
+
+
