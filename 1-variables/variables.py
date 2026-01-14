@@ -38,7 +38,7 @@ next_year_age = age + 1
 print("My name:", name)
 print("Age:", next_year_age)
 print("Height:", height)
-Print("Student status:", is_student)
+print("Student status:", is_student)
 
 
 
