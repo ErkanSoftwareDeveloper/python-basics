@@ -40,6 +40,33 @@ print("Age:", next_year_age)
 print("Height:", height)
 print("Student status:", is_student)
 
+# Multiple variables
+x, y, z = 10, 20, 30
+print(x, y, z) 
+
+e, r, k, a, n = 10, 20, 30, 40, 50
+print(e, r, k, a, n)
+
+# Multiple variables
+a = b = c = 5
+print(a, b, c) 
+
+d = e = r
+print(d, e, r)
+
+# f-string
+name = "Erkan"
+age = 22
+country = Bulgaria
+
+print(f"Your name is {name}, you are {age} years old, you are from {country}")
+
+
+
+
+
+
+
 
 
 
