@@ -61,6 +61,15 @@ country = Bulgaria
 
 print(f"Your name is {name}, you are {age} years old, you are from {country}")
 
+# Math with variables
+age = 22
+next_year_age = age + 1
+double_age = age * 2
+
+print(next_year_age)
+print(double_age)
+
+
 
 
 
