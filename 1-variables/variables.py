@@ -114,7 +114,6 @@ print(int(x) + int(x)) #10
 
 # type()
 # type() --> In Pythone, it tells you the data type of a variable
-
 x = 10
 y = "Hello"
 z = 3.14
