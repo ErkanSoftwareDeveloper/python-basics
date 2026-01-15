@@ -105,6 +105,31 @@ print("Age: " + age)
 age = 31
 print(f"Age: {age}")
 
+# string
+x = "5"
+y = 5
+
+print(x + x) #55
+print(int(x) + int(x)) #10
+
+# type()
+# type() --> In Pythone, it tells you the data type of a variable
+
+x = 10
+y = "Hello"
+z = 3.14
+a = True
+b = [1, 2, 3]
+
+print(type(x)) # <class 'int'> whole number
+print(type(y)) # <class 'str'> text
+print(type(z)) # <class 'float'> decimal number
+print(type(a)) # <class 'bool'> boolean True/False
+print(type(b)) # <class 'list'> list
+
+
+
+
 
 
 
