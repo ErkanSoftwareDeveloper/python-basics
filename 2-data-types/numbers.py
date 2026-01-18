@@ -54,4 +54,22 @@ z = int(3.99) # 3
 print(x, y, z) # 10 10.0 3
 
 # Built in Math Functions
+print(abs(-7)) # returns the number without its sign (always positive) = 7
+print(abs(7)) # returns the number without its sign (always positive) = 7
+print(round(3.1415, 2)) 
+print(pow(2, 3)) # 2*2*2 = 8
+print(min(1,5,3))
+print(max(1,5,3))
+
+# Complex Numbers
+z = 2 + 3j
+print(z) # (2+3j)
+print(z.real) # 2.0
+print(z.imag) # 3.0
+
+# Random Numbers
+import random
+print(random.randint(1, 10)) # print random number between 1-10
+print(random.random()) # print random number between 0-1
+
 
