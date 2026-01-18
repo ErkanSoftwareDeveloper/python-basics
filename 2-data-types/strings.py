@@ -20,6 +20,7 @@ print(word[0]) # P = first charachter
 print(word[3]) # H = fourth charahter
 # Negative indexing counts from the end:
 print(word[0]) # n = last character
-print(word[-2] # o = second to last
+print(word[-2]) # o = second to last
 
 # Slicing Strings
+
