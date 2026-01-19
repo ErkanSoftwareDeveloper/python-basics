@@ -48,3 +48,29 @@ new_text = text.replace("Python", "Java"
 print(new_test) # i like Java
 
 # Split
+sentence = "Python is awesome"
+words = sentence.split(" ")
+
+print(words) # ['Python', 'is', 'awesome']
+
+# Join
+words = ["Python", "is", "awesome"]
+sentence = " ".join(words)
+
+print(sentence) # Python is awesome
+
+# String Length
+text = "Python"
+print(len(text)) # 6
+
+# Check inside a String
+text = "Hello World"
+
+print("Hello" in text) # true
+print("Python" in text) # false
+
+# f-String 
+name = "Erkan"
+age = 25 
+
+print(f"My name is {name} and I am {age} years old.")
