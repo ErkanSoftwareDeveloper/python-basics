@@ -77,3 +77,35 @@ print(numbers[:3]) # [1, 2, 3]
 print(numbers[2:]) # [3, 4, 5]
 
 # Sort the list
+numbers = [4, 1, 3, 2]
+numbers.sort()
+
+print(numbers) # [1, 2, 3, 4]
+
+# reverse the list
+numbers = [1, 2, 3, 4]
+numbers.reverse()
+
+print(numbers) # [4, 3, 2, 1]
+
+# count how many times a value appears
+numbers = [1, 2, 2, 3, 2]
+print(numbers.count(2)) # 3
+
+# find the index of a value
+names = ["Erkan", "Ali", "Ayse"]
+print(names.index("Ali")) # 1
+
+# Copying lists
+a = [1, 2, 3]
+b = a.copy()
+
+b.append(4)
+print(a) # [1, 2, 3]
+print(b) # [1, 2, 3, 4]
+
+# Clear a list
+numbers = [1, 2, 3]
+numbers.clear()
+
+print(numbers) #[]
