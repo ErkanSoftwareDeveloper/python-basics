@@ -57,3 +57,42 @@ if age < 18 or is_student:
   print("Discount applies")
 
 """ not """
+logged_in = False
+if not logged_in:
+  print("Please log in")
+
+# Checking String and Lists
+name = "Erkan"
+if name =="Erkan":
+  print("Welcome Erkan")
+
+""" """
+
+users = ["Erkan", "Ali"]
+
+if "Erkan" in users:
+  print("User found")
+
+# Truthy & Falsy Values (VERY important concept)
+if "":
+  print("This will NOT run")
+
+if 0:
+  print("Thiw will NOT run")
+
+if[]:
+  print("Thiw will NOT run")
+
+""" Truthy examples: """
+
+if "hello":
+  print("This WILL run")
+
+if 10:
+  print("This WILL run")
+
+# is vs == (basic awareness)
+a = 10
+b = 10
+print(a == b) # True (value comparison)
+print(a is b) # True (same object in memory - advanced topic)
