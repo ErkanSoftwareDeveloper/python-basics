@@ -63,7 +63,7 @@ if not logged_in:
 
 # Checking String and Lists
 name = "Erkan"
-if name =="Erkan":
+if name == "Erkan":
   print("Welcome Erkan")
 
 """ """
@@ -74,6 +74,8 @@ if "Erkan" in users:
   print("User found")
 
 # Truthy & Falsy Values (VERY important concept)
+
+ """ Falsy Values """
 if "":
   print("This will NOT run")
 
@@ -83,7 +85,7 @@ if 0:
 if[]:
   print("Thiw will NOT run")
 
-""" Truthy examples: """
+""" Truthy VALUES examples: """
 
 if "hello":
   print("This WILL run")
@@ -96,3 +98,40 @@ a = 10
 b = 10
 print(a == b) # True (value comparison)
 print(a is b) # True (same object in memory - advanced topic)
+# True
+# True
+
+# Nested if (if inside if)
+age = 20
+has_id = True
+
+if age >= 18:
+  if has_id:
+    print("You can enter")
+  else:
+    print("ID required") # You can enter
+
+# another example
+age = 16
+has_id = True
+
+if age >= 18:
+    if has_id:
+        print("You can enter")
+    else:
+        print("ID required")
+
+else:
+    print("Too Young") # Too Young
+""" f the age is under 18 → "Too Young"
+
+If the age is 18 or older and has an ID → "You can enter"
+
+If the age is 18 or older and does not have an ID → "ID required """ 
+
+
+# Short if (Ternary Operator)
+age = 16
+message = "Adult" if age >= 18 else "Minor"
+
+print(message) # Minor
